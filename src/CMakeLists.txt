@@ -981,6 +981,10 @@ list( APPEND SOURCES
       xml/XMLWriter.h
       xml/audacityproject.dtd
 
+      # Update version
+      prefs/ApplicationPrefs.h
+      prefs/ApplicationPrefs.cpp
+
       Experimental.cmake
 )
 
